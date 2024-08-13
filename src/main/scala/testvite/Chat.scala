@@ -11,7 +11,7 @@ import scala.scalajs.js
 import scala.scalajs.js.JSConverters.*
 
 object Chat {
-  val receivedMessages = Var(List("first message"))
+  val receivedMessages = Var(List("first message by default"))
   val currentMessage = Var("")
   var isDataChannelOpen = Var(false)
 
